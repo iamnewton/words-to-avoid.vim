@@ -1,6 +1,3 @@
-" Setup the syntax highlighting with red bg/white text
-highlight TechWordsToAvoid ctermbg=red ctermfg=white guibg=red guifg=white
-
 " Look for matches and highlight them
 function! MatchTechWordsToAvoid()
 	match TechWordsToAvoid /\c\(\<\(obviously\|basically\|simply\|of\scourse\|clearly\|\(^\|\W\)\@<=just\(\W\)\@=\(\W\)\@<!\|everyone\sknows\|however\||easy\)\>\)\|\(\<so,\)/
